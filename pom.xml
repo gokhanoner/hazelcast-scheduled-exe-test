@@ -32,12 +32,12 @@
 		<dependency>
 			<groupId>com.hazelcast</groupId>
 			<artifactId>hazelcast-spring</artifactId>
-			<version>3.8.3</version>
+			<version>3.8.4</version>
 		</dependency>
 		<dependency>
 			<groupId>com.hazelcast</groupId>
 			<artifactId>hazelcast</artifactId>
-			<version>3.8.3</version>
+			<version>3.8.4</version>
 		</dependency>
 		<dependency>
 			<groupId>org.projectlombok</groupId>

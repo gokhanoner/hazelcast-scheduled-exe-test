@@ -5,7 +5,13 @@
 		http://www.springframework.org/schema/beans/spring-beans.xsd
 		http://www.hazelcast.com/schema/spring
 		http://www.hazelcast.com/schema/spring/hazelcast-spring.xsd">
-    <hz:hazelcast id="instance" lazy-init="true" scope="singleton">
+    <hz:hazelcast id="hz1" lazy-init="true" scope="singleton">
+        <hz:config>
+            <hz:spring-aware />
+            <hz:group name="gokhan" password="test"/>
+        </hz:config>
+    </hz:hazelcast>
+    <hz:hazelcast id="hz2" lazy-init="true" scope="singleton">
         <hz:config>
             <hz:spring-aware />
             <hz:group name="gokhan" password="test"/>
