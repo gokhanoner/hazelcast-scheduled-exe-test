@@ -36,6 +36,7 @@ public class DemoExecutorApplication {
 			hz.getExecutorService("default").execute(new SomeRunnableTask());
 			Thread.sleep(1000);
 			hz.getScheduledExecutorService("default").schedule(new SomeRunnableTask(), 2000, TimeUnit.MILLISECONDS);
+			Thread.sleep(4000);
 		};
 	}
 
